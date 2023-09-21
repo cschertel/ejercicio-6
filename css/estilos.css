@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+html {
+    background-color: #eceff1;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.col-4 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 33.33%;
+}
+
+.f-left {
+    float: left;
+}
+
+.b-r-50 {
+    border-radius: 50%;
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+p,
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-weight: 400;
+    font-size: 0.83em;
+}
+
+.border-grey {
+    border: 1px solid #e5e5e5;
+}
+
+.p-2 {
+    padding: 2em;
+}
+
+h1,
+h2 {
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+p.f-8 {
+    font-size: 0.8em;
+}
+
+.mt-8 {
+    margin-top: 0.8em;
+}
+
+.mb-8 {
+    margin-bottom: 0.8em;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+button,
+.button {
+    background-color: #0066ff;
+    padding: 7px 25px;
+    color: #ffffff;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 0.4em;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.button:hover {
+    background-color: #0052cc;
+}
+
+h3.h-estad:hover {
+    color: #5f6368;
+    cursor: pointer;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.efecto:hover {
+    color: #5f6368;
+}
+
+.efecto {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+    .col-4 {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .col-4 {
+        width: 100%;
+    }
+}
